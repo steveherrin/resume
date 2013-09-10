@@ -1,7 +1,9 @@
 %________________________________________________________________________________________________
 % @brief    LaTeX2e Resume for Kamil K Wojcicki
 \documentclass[margin,line]{resume}
-
+\addtolength{\oddsidemargin}{0.1in}
+\usepackage{tgtermes}
+\usepackage[T1]{fontenc}
 %\renewcommand{\labelitemi}{\ }
 
 %________________________________________________________________________________________________
@@ -20,39 +22,39 @@
     % Professional Experience
     \section{\mysidestyle Experience}
     
-    \textbf{Insight Data Science}, Mountain View, CA, USA \hfill August 2013 -- present\vspace{1mm}\\\vspace{1mm}%
+    \textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- present\vspace{1mm}\\\vspace{1mm}%
     \textsl{Fellow}
     \begin{itemize}
-    \item Developed parksafely (www.parksafely.com), a web app that recommends safe, nearby bicycle parking for destinations in San Francisco.
+    \item Developed parksafely (www.parksafely.com), a web app to recommend safe, nearby bicycle parking for destinations in San Francisco.
     \item Stored geographic parking and crime data in a PostgreSQL/PostGIS database.
-    \item Created and validated a heuristic algorithm for creating the parking recommendations.
-    \item Designed a web interface using Flask, Twitter Bootstrap, JavaScript, and the Google Maps API.
+    \item Created and validated a heuristic algorithm for parking recommendations that reduce bike theft risk by XX\%.
+    \item Designed web interface using Flask, Twitter Bootstrap, JavaScript, and Google Maps API.
     \end{itemize}
 
-    \textbf{SLAC National Accelerator Lab}, Menlo Park, CA, USA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
-    \textsl{Research Assistant}
+    \textbf{SLAC National Accelerator Lab}, Menlo Park, CA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
+    \textsl{Graduate Research Assistant}
     \begin{itemize}
-    \item Created a PHP logbook with a MySQL backend for tracking work on the EXO--200 experiment.
-    \item Expanded a LabVIEW-based slow controls system for the EXO--200 experiment to track over 600 channels of data in a MySQL database.
-    \item Modeled electron attenuation and light propagation in the EXO--200 experiment using calibration data. Applying these models improved the experiment's energy resolution by 25\%.
-    \item Applied regression and statistical techniques to data from the EXO--200 experiment to obtain precise measurements and strong limits on various double-beta decay processes.
+    \item Created a PHP logbook with a MySQL backend for tracking work on the EXO-200 experiment.
+    \item Expanded a LabVIEW-based system for controlling the experiment to track over 600 channels of telemetry in a MySQL database.
+    \item Modeled electron attenuation and light propagation to improve the experiment's energy resolution by 25\%.
+    \item Applied maximum-likelihood fitting and other statistical techniques in Python and C++ scripts to obtain precise measurements and strong limits on various double-beta decay processes.
     \end{itemize}
     
-    \textbf{Stanford University}, Stanford, CA, USA \hfill April 2008 -- December 2011 \vspace{0mm}\\
-    %\phantom{\textbf{Stanford University}, Stanford, CA, USA}\hfill September 2011 -- December 2011\vspace{1mm}\\\vspace{1mm}%
+    \textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
+    \phantom{\textbf{Stanford University}, Stanford, CA}\hfill (3 quarters)\vspace{1mm}\\\vspace{1mm}%
     \textsl{Teaching Assistant}
     \begin{itemize}
     \item Communicated advanced physics concepts to undergraduates, including teaching a computational physics course using MATLAB.
     \end{itemize}
     
-    \textbf{University of Washington}, Seattle, WA, USA \hfill June 2006 -- August 2006 \vspace{0mm}\\
-    continued at \textbf{Rice University}, Houston, TX, USA \hfill August 2006 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
+    \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{0mm}\\
+    continued at \textbf{Rice University}, Houston, TX \hfill August 2006 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
     \textsl{Undergraduate Research Assistant}
     \begin{itemize}
     \item Implemented and evaluated decision tree algorithms using C++ in order to separate single top quark production events from backgrounds at the D0 experiment.
     \end{itemize}
  
-    \textbf{Rice University}, Houston, TX, USA \hfill May 2005 -- August 2005 \vspace{1mm}\\\vspace{1mm}%
+    \textbf{Rice University}, Houston, TX \hfill May 2005 -- August 2005 \vspace{1mm}\\\vspace{1mm}%
     \textsl{Undergraduate Research Assistant}
     \begin{itemize}
     \item Evaluated and tested machine learning algorithms for discriminating supersymmetric signals from backgrounds at the D0 experiment.
@@ -71,12 +73,12 @@
     % Education
     \section{\mysidestyle Education}
 
-    \textbf{Stanford University}, Stanford, CA, USA \hfill June 2013\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Stanford University}, Stanford, CA \hfill June 2013\vspace{-3mm}\\\vspace{-1mm}%
     \begin{itemize}
     \item Ph.D. (Physics)
     \end{itemize}\vspace{-1.5mm}
     
-    \textbf{Rice University}, Houston, TX, USA \hfill May 2007\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Rice University}, Houston, TX \hfill May 2007\vspace{-3mm}\\\vspace{-1mm}%
     \begin{itemize}
     \item B.S. (Physics)
     \end{itemize}\vspace{-1.5mm}
@@ -151,7 +153,7 @@
 %\textbf{Professor Martin Breidenbach}			&  \textbf{Dr Jesse Wodin}                   \\
 %Professor									&  Postdoctoral Researcher                       \\
 %SLAC National Accelerator Laboratory			&  SLAC National Accelerator Laboratory                      \\
-%Menlo Park, CA, USA						&  Menlo Park, CA, USA	        \\
+%Menlo Park, CA						&  Menlo Park, CA	        \\
 %phone: \textsl{available on request}				&  phone: \textsl{available on request}     \\
 %e-mail: \textsl{mib@slac.stanford.edu}			&  e-mail: \textsl{jwodin@slac.stanford.edut}    \\
 %\end{tabular}
