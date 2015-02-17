@@ -1,5 +1,5 @@
 %________________________________________________________________________________________________
-% @brief    LaTeX2e Resume for Kamil K Wojcicki
+% @brief    LaTeX2e Resume
 \documentclass[margin,line]{resume}
 \addtolength{\oddsidemargin}{0.1in}
 \usepackage{tgtermes}
@@ -16,58 +16,59 @@
 
     steve.herrin@gmail.com		\hfill www.github.com/steveherrin		\vspace{0mm}\\\vspace{0mm}%
     650-814-8865				\hfill www.linkedin.com/in/herrinsteve	\vspace{0mm}\\\vspace{-4.5mm}%
-    Mountain View, CA			\hfill								\vspace{0mm}\\\vspace{0mm}%
+    Sunnyvale, CA    			\hfill				    				\vspace{0mm}\\\vspace{0mm}%
     
     %________________________________________________________________________________________________
     % Professional Experience
     \section{\mysidestyle Experience}
-    
-    \textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- present\vspace{1mm}\\\vspace{1mm}%
-    \textsl{Fellow}
+
+    \textbf{23andMe}, Mountain View, CA \hfill January 2014 -- present\vspace{1mm}\\\vspace{1mm}%
+    \textsl{Software Engineer}
     \begin{itemize}
-    \item Developed Parksafely (www.parksafely.com), a web app to recommend safe, nearby bicycle parking for destinations in San Francisco.
-    \item Stored geographic parking and crime data in a PostgreSQL/PostGIS database.
-    \item Created and validated a heuristic algorithm for parking recommendations using Python, reducing bike theft risk by 40\% while requiring only 150~ft more walking on average.
-    \item Designed web front-end using Flask, Twitter Bootstrap, JavaScript, and Google Maps API.
+    \item Using Luigi and Celery, created data pipelines to impute, analyze, and monitor TB scale amounts of genetic data.
+    \item Maintained and monitored ETL processes for billions of genotypic and phenotypic data points into MySQL and HBase tables.
+    \item Developed data quality checks that uncovered at least 3 subtle bugs in ETL processes.
+    \end{itemize}
+    
+    \textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
+    \textsl{Postdoctoral Fellow}
+    \begin{itemize}
+    \item Developed Parksafely, a web app to recommend safe, nearby bicycle parking for destinations in San Francisco.
+    %\item Stored geographic parking and crime data in a PostgreSQL/PostGIS database.
+    \item Created and validated a heuristic algorithm for parking recommendations using Python and a PostgreSQL/PostGIS database, reducing bike theft risk by 40\% while requiring only 150~ft more walking on average.
     \end{itemize}
 
     \textbf{SLAC National Accelerator Lab}, Menlo Park, CA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
     \textsl{Graduate Research Assistant}
     \begin{itemize}
-    \item Created a PHP logbook with a MySQL back-end for tracking work on the EXO-200 experiment.
-    \item Expanded a LabVIEW-based system for monitoring and controlling the experiment to track over 600 channels of telemetry in a MySQL database.
-    \item Modeled electron attenuation and light propagation to improve energy resolution by 25\%.
-    \item Applied maximum-likelihood fitting and other statistical techniques using Python and C++ to observe or put limits on processes with half-lives greater than \(10^{21}\)~yr.
-    \item Reconstructed cosmic ray muons, correcting a prior measurement by another experiment by 10\%.
+    \item Created a PHP logbook webapp with a MySQL back-end for tracking work on the EXO-200 experiment.
+    \item Expanded a LabVIEW-based system for monitoring and controlling the experiment, recording over 600 channels of telemetry in a MySQL database.
+    \item Created data pipelines to routinely determine electron attenuation, light propagation, and energy scale calibration, improving energy resolution by 25\%.
+    %\item Applied maximum-likelihood fitting and other statistical techniques using Python and C++ to observe or put limits on processes with half-lives greater than \(10^{21}\)~yr.
     \end{itemize}
     
-    \textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
+    %\textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
     %\phantom{\textbf{Stanford University}, Stanford, CA}\hfill (3 quarters)\vspace{1mm}\\\vspace{1mm}%
-    \textsl{Teaching Assistant}\hfill (3 quarters)%
-    \begin{itemize}
-    \item Supervised 8 to 12 undergraduate students in laboratory and classroom settings.
-    \item Communicated advanced physics concepts, including computational physics using MATLAB.
-    \end{itemize}
+    %\textsl{Teaching Assistant}\hfill (3 quarters)%
+    %\begin{itemize}
+    %\item Supervised 8 to 12 undergraduate students in laboratory and classroom settings.
+    %\item Communicated advanced physics concepts, including computational physics using MATLAB.
+    %\end{itemize}
     
-    \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{0mm}\\
-    continued at \textbf{Rice University}, Houston, TX \hfill August 2006 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
+    \textbf{Rice University}, Houston, TX \hfill May 2005 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
+    and \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{1mm}\\\vspace{1mm}%
     \textsl{Undergraduate Research Assistant}
     \begin{itemize}
-    \item Implemented and evaluated decision tree algorithms using C++ in order to separate single top quark production events from backgrounds at the D0 experiment.
-    \end{itemize}
- 
-    \textbf{Rice University}, Houston, TX \hfill May 2005 -- August 2005 \vspace{1mm}\\\vspace{1mm}%
-    \textsl{Undergraduate Research Assistant}
-    \begin{itemize}
-    \item Evaluated and tested machine learning algorithms for discriminating supersymmetric signals from backgrounds at the D0 experiment.
+    \item Implemented (in C++) and evaluated random forest and boosted decision tree algorithms that contributed to the discovery of sigle top quark production by Fermilab's D0 experiment.
+    \item Investigated machine learning algorithms (SVM, neural networks, KNN) to discriminate supersymmetry from backgrounds in the D0 experiment.
     \end{itemize}
     
     %________________________________________________________________________________________________
     % Skills
     \section{\mysidestyle Skills}\vspace{0mm}%
     \begin{itemize}
-    \item \textbf{Languages:} Python, C++, MATLAB/Octave, LabVIEW, PHP, Bash scripting, Mathematica (some experience), Java (some experience), JavaScript (some experience)
-    \item \textbf{Tools:} NumPy, SciPy, Flask, MySQL, PostgreSQL, Git, SVN, \LaTeX, Hadoop/MapReduce (some experience)
+    \item \textbf{Languages:} Python, C++, MATLAB/Octave, LabVIEW, PHP, Bash/Shell scripting, Mathematica (some experience), Java (some experience), JavaScript (some experience)
+    \item \textbf{Tools:} NumPy, SciPy, Flask, Django, Celery, Luigi, MySQL, PostgreSQL, Git, SVN, P4, \LaTeX, HBase (some experience), Hadoop/MapReduce (some experience)
     \item \textbf{Other:} Machine learning, classification, regression, statistics, mathematics, hypothesis testing, Monte Carlo simulations, time-series analysis
     \end{itemize}
     
@@ -87,7 +88,7 @@
  
  
     %________________________________________________________________________________________________
-    % Honours and Awards
+    % Honors and Awards
     %\section{\mysidestyle Honors and\\Awards} 
 
     %\textbf{Heaps Prize} (Rice University) \hfill May 2007\vspace{-3mm}\\\vspace{-1mm}%
@@ -147,18 +148,6 @@
 % References
 %    \section{\mysidestyle References} 
 %    {\sl Available on request.}
-
-%________________________________________________________________________________________________
-%\section{\mysidestyle References} 
-%
-%\begin{tabular}{@{}p{6cm}p{6cm}}
-%\textbf{Professor Martin Breidenbach}			&  \textbf{Dr Jesse Wodin}                   \\
-%Professor									&  Postdoctoral Researcher                       \\
-%SLAC National Accelerator Laboratory			&  SLAC National Accelerator Laboratory                      \\
-%Menlo Park, CA						&  Menlo Park, CA	        \\
-%phone: \textsl{available on request}				&  phone: \textsl{available on request}     \\
-%e-mail: \textsl{mib@slac.stanford.edu}			&  e-mail: \textsl{jwodin@slac.stanford.edut}    \\
-%\end{tabular}
 
 %________________________________________________________________________________________________
 \end{resume}
