@@ -16,50 +16,58 @@
 
     jobs@steveherrin.com		\hfill www.github.com/steveherrin		\vspace{0mm}\\\vspace{0mm}%
     650-814-8865				\hfill www.linkedin.com/in/herrinsteve		\vspace{0mm}\\\vspace{-4.5mm}%
-    San Jose, CA    				\hfill		\vspace{0mm}\\\vspace{0mm}%
+    San Jose, CA    				\hfill		\vspace{0mm}\\%\vspace{-2mm}%
 
+%________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle Summary}
+    Engineer with over a decade of experience using software, data, and machine learning to solve technological problems. Over 3 years experience leading and managing technical teams. Has a scientific (physics PhD) background and experience adapting to other fields like biotech.
     %________________________________________________________________________________________________
     % Professional Experience
     \section{\mysidestyle Experience}
 
-    \textbf{23andMe}, Sunnyvale, CA \hfill\vspace{1mm}\hfill January 2014 -- present\\%\vspace{-1mm}
-    \textsl{Engineering Manager / Tech Lead (2.5 years)}
+    \textbf{23andMe}, Sunnyvale, CA \hfill\hfill January 2014 -- present\\%\vspace{1mm}\vspace{-1mm}
+    \textsl{Tech Lead/Engineering Manager (3 years)}
     \begin{itemize}
-    \item Built 3 machine learning and data -focused teams, containing 16 ICs: leads, senior, and junior level
-    \item Supervised technical and data science aspects of 4 machine learning projects from R\&D to production
     \item Architected and led building of systems to ensure quality, reproducibility, and rapid deployment of machine learning models using containers, used for over 90\% of production models
-    \item Led team to build a web-based portal that allows internal and external researchers to dynamically query anonymized data stored in HBase for \textgreater 5 million customers using a SQL-like interface
-    \item Formed and led committee of leads to standardize interviewing guidelines and open source processes\\\vspace{-6mm}
+    \item Contributed to and supervised technical work of 2 data scientists on a project to automate genotype calling using a combination of unsupervised and supervised ML techniques
+    \item Recruited a mix of 16 lead, senior, and junior level engineers to create 3 data and machine learning focused teams. Had a maximum of 10 direct reports
+    \item Led team to build a web-based portal that allows internal and external researchers to dynamically query \(k\)-anonymous data stored in HBase for \textgreater 10 million customers using a SQL-like interface
+    \item Formed and led committee of leads to standardize interviewing guidelines and open source processes across engineering
     \end{itemize}
-   \textsl{Engineering Individual Contributor (4 years)}\\\vspace{-4mm}
+    \textsl{Individual Contributor (4 years)}
     \begin{itemize}
-    \item Developed and automated a maximum likelihood analysis combining private and public datasets that flagged \(\sim0.5\%\) bad genotyping probes for replacement in future platforms
-    \item Automated genotype calling using a combination of unsupervised and supervised ML techniques
-    \item Designed and implemented a Python library providing a unified API for accessing customer data across MySQL, HBase, and other data stores, simplifying building and deploying machine learning models
-    \item Built 3 generations of data pipelines with Celery, Luigi, and AWS Simple Workflow to run Python, C++, and R algorithms that impute, transform, and analyze petabytes of genetic data
-    \item Created Genotyping Services, a Django webapp on AWS allowing external researchers to easily run genomic studies, increasing sales by over 2\% and leading to strategic data-sharing agreements\\\vspace{-6mm}
-     %\item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using Elm
-    %\end{itemize}
-    %\textsl{Engineering management) (1.5 yrs)}
-    %\begin{itemize}
+    \item Developed machine learning and heuristic-based techniques for calling haplotypes of a difficult-to-assay gene using only genotyping probe (not sequencing) data, with over 90\% average precision for a number of clinically relevant haplotypes
+     \item Developed and automated a maximum likelihood analysis combining private and public datasets that flagged \(\sim0.5\%\) bad genotyping probes (out of half a million) for replacement in future platforms
+     \item Synthesized realistic pedigrees and genomes, and reimplemented bioinformatics algorithms to scale the discovery of genetically related individuals to handle \textgreater10 million customers
+     \item Built 3 generations of data pipelines with Celery, Luigi, and AWS Simple Workflow to run Python, C++, and R algorithms that impute, transform, and analyze petabytes of genetic data
+    \item Designed and implemented a Python library providing a unified API for accessing customer data across MySQL, HBase, and other data stores, streamlining scientific and machine learning development
+    \item Created Genotyping Services, a Django webapp on AWS allowing external researchers to easily run genomic studies, increasing sales by over 2\% and leading to strategic data-sharing agreements
+     \item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end with React%\\%\vspace{-6mm}
+%\\\vspace{-6mm}
     \end{itemize}
-    %\textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
-    %\textsl{Postdoctoral Fellow}
-    %\begin{itemize}
-    %\item Developed Parksafely, a web app applying a heuristic algorithm to make parking recommendations, reducing bike theft risk by 40\% while requiring only 150~ft more walking on average. Used Flask, PostgreSQL/PostGIS, and Javascript.
-    %\end{itemize}
+    \textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
+    \textsl{Postdoctoral Fellow}
+    \begin{itemize}
+    \item Developed Parksafely, a web app applying a heuristic algorithm to make parking recommendations, reducing bike theft risk by 40\% while requiring only 50~m more walking on average. Used Flask, PostgreSQL/PostGIS, and Javascript
+    \end{itemize}
+
+\pagebreak
 
     \textbf{SLAC National Accelerator Lab}, Menlo Park, CA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
     \textsl{Research Associate}
     \begin{itemize}
-    \item Applied machine learning algorithms \& statistical analysis to improve detector energy resolution by 25\%
-    \item Repurposed the detector for 3D cosmic ray muon reconstruction using computer vision algorithms, yielding a 10x reduction in cosmogenic background uncertainty
-    %\item Created a PHP logbook webapp with a MySQL backend for tracking work on the EXO-200 experiment
-    \item Built and maintained slow control systems collecting heterogeneous sensor data at 1 Hz from over 600 channels at a site with unreliable internet connectivity to protect \$10M of liquid xenon
-    %\item Developed batch data pipelines using Python, C++, and shell scripts to routinely measure detector characteristics by processing TB of calibration data.
-    \item Developed batch data pipelines using Python, C++, and shell scripts to process TB of calibration data
-    \item Mentored 1--2 junior graduate students (at any given time) on lab, coding, and statistical technique\\\vspace{-6mm}
+    \item Applied statistical analysis (regression, time series, maximum likelihood) to improve detector energy resolution by 25\%
+    \item Repurposed the detector for 3D cosmic ray muon reconstruction using computer vision algorithms, yielding a substantial reduction in cosmogenic background uncertainty
+    \item Expanded and maintained control systems collecting heterogeneous sensor data at 1 Hz from over 600 channels at a site with unreliable internet connectivity to allow worldwide 24/7 monitoring and protect \$10M of liquid xenon
+    \item Developed batch data pipelines using Python, C++, and shell scripts to routinely measure detector characteristics by processing TB of calibration data
+    \item Created a PHP logbook and shift coordination webapp with a MySQL backend for tracking work on the EXO-200 experiment
+    \item Mentored 1--2 junior graduate students on lab, coding, and statistical technique%\\\vspace{-6mm}
+    %\item Led a globally-distributed data analysis team of 4 scientists focused on better characterizing the detector
+    \item Published 14 papers with the EXO collaboration, including 3 in which I wrote substantial portions
     \end{itemize}
+
+
 
     %\textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
     %\phantom{\textbf{Stanford University}, Stanford, CA}\hfill (3 quarters)\vspace{1mm}\\\vspace{1mm}%
@@ -73,44 +81,42 @@
     and \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{1mm}\\\vspace{1mm}%
     \textsl{Undergraduate Research Assistant}
     \begin{itemize}
-    \item Implemented (in C++) and evaluated random forest and boosted decision tree algorithms that contributed to the discovery of single top quark production by Fermilab's D0 experiment
-    %\item Investigated and benchmarked many different machine learning classification algorithms for their power to discriminate signals of supersymmetry from backgrounds.
+    \item Implemented (in C++) and evaluated random forest and boosted decision tree algorithms that contributed to the discovery of single top quark production by Fermilab's D0 experiment%\\\vspace{-6mm}
+    \item Investigated and benchmarked many different feature selection techniques and machine learning classification algorithms for their power to discriminate signals of supersymmetry from backgrounds
     \end{itemize}
-
+    
     %________________________________________________________________________________________________
     % Skills
-    \section{\mysidestyle Skills}\vspace{0mm}%
-    \textbf{Languages:} Python, Rust, Elm, C++, SQL, Shell Scripting, JavaScript/TypeScript, MATLAB/Octave, R
-    \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Tools:} AWS, NumPy, SciPy, Scikit-Learn, Django, MySQL, PostgreSQL, Git, \LaTeX, HBase, Spark
-    \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Other:} Machine Learning, Data Analysis, Statistics, Simulation, Sensors, Neutrino \& Particle Physics
+    \section{\mysidestyle Skills}%\vspace{0mm}%
+    \textbf{Languages:} Python; Rust; Elm; C++; SQL; Shell Scripting; JavaScript/TypeScript; MATLAB/Octave; R
+    \vspace{1mm}\\%\vspace{0mm}%
+    \textbf{Tools:} AWS; GCP; NumPy; SciPy; Scikit-Learn; Tensorflow; Keras; Django; MySQL; PostgreSQL; Git; \LaTeX; HBase; Spark
+    \vspace{1mm}\\%\vspace{0mm}%
+    \textbf{Other:} Machine Learning; Data Analysis; Statistics; Simulation; Sensors; Neutrino, Particle, \& Nuclear Physics; CAD/3D Modeling, Underground Mining %\\%\vspace{-6mm}
 
-    %________________________________________________________________________________________________
-    % Projects
-    \section{\mysidestyle Open Source}\vspace{0mm}%
-    \textbf{SpookyOTP:} A lightweight Python implementation of TOTP/HOTP authentication
-    \vspace{1mm}%\\\vspace{0mm}
-    %\textbf{PBWT Rust:} A Rust implementation of the positional Burrows-Wheeler transform
 
-    %________________________________________________________________________________________________
+%________________________________________________________________________________________________
     % Education
     \section{\mysidestyle Education}
-    \textbf{Insight Data Science}, Mountain View, CA \hfill December 2013\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Insight Data Science}, Mountain View, CA \hfill December 2013\vspace{-3mm}\\%\vspace{-1mm}%
     \begin{itemize}
     \item Postdoctoral Fellowship
     \end{itemize}\vspace{-1.5mm}
 
-    \textbf{Stanford University}, Stanford, CA \hfill June 2013\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Stanford University}, Stanford, CA \hfill June 2013\vspace{-3mm}\\%\vspace{-1mm}%
     \begin{itemize}
     \item Ph.D. (Physics)
     \end{itemize}\vspace{-1.5mm}
 
-    \textbf{Rice University}, Houston, TX \hfill May 2007\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Rice University}, Houston, TX \hfill May 2007\vspace{-3mm}\\%\vspace{-1mm}%
     \begin{itemize}
     \item B.S. (Physics)
-    \end{itemize}\vspace{-1.5mm}
-
+    \end{itemize}%\vspace{-1.5mm}
+    %________________________________________________________________________________________________
+    % Projects
+    \section{\mysidestyle Open Source}%\vspace{0mm}%
+    \textbf{SpookyOTP:} A lightweight Python implementation of TOTP/HOTP authentication\\%\vspace{-6mm}
+    %\textbf{PBWT Rust:} A Rust implementation of the positional Burrows-Wheeler transform
     %________________________________________________________________________________________________
     % Honors and Awards
     %\section{\mysidestyle Honors and\\Awards} 
