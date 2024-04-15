@@ -21,16 +21,16 @@
 %________________________________________________________________________________________________
     % Summary
     \section{\mysidestyle Summary}
-    Engineering leader with over a decade of experience using software, data, and machine learning to solve novel scientific and technological problems. Experience building and managing engineering and data teams. Scientific (physics PhD) background with demonstrated adaptibility to other fields like biotech.%________________________________________________________________________________________________
+    Engineering leader with over a decade of experience building and leading teams that use software, data, and machine learning to solve novel problems. Scientific (physics PhD) background with demonstrated adaptability to other fields like biotech.%________________________________________________________________________________________________
     % Professional Experience
     \section{\mysidestyle Experience}
-    \textbf{Pathos AI}, Chicago, IL \hfill\vspace{1mm}\hfill June 2022 -- present\\%\vspace{-1mm}
+    \textbf{Pathos AI}, Chicago, IL (Remote) \hfill\vspace{1mm}\hfill June 2022 -- present\\%\vspace{-1mm}
     \textsl{Vice President of Engineering}
     \begin{itemize}
-    \item Grew the engineering team from zero to four engineers of varying seniority through recruiting and acquisitions
-    \item Developed a data catalog and management system using PostgreSQL and Python to search for, manage, understand, and audit access to thousands of datasets and analysis results
-    \item Prototyped large language model (LLM) pipeline for scientific literature review
-    \item Used Google Cloud, Terraform, and Nextflow to orchestrate and automate distributed scientific computing jobs
+    \item Grew an engineering team from zero to four engineers of varying seniority
+    \item Built a data catalog and management system to search, utilize, understand, and audit access to thousands of datasets and analysis results
+    \item Prototyped LLM RAG generative AI pipeline for scientific literature review
+    \item Used GCP, Terraform, and Nextflow to automate data analysis and processing
     \end{itemize}
 
     \textbf{D2G Oncology}, Mountain View, CA \hfill\vspace{1mm}\hfill April 2021 -- May 2022\\%\vspace{-1mm}
@@ -38,25 +38,25 @@
     \begin{itemize}
     \item Created \textit{in silico} simulations of PCR and DNA sequencing, used for oligo design, QC, and automated processing of several multiplexed sequencing runs per month
     \item Built a pipeline using pydantic to automate ETL and validation of Benchling LIMS data from an HTTP API to a PostgreSQL warehouse
-    \item Developed a Python API library exposing GraphQL and REST hooks for accessing and traversing the relations of a large knowledge graph of lab, sequencing, and analysis data, as well as external data sets
+    \item Developed a Python library exposing GraphQL and REST APIs for accessing and traversing a large knowledge graph of lab, sequencing, public, and analysis data
     \end{itemize}
 
     \textbf{23andMe}, Sunnyvale, CA \hfill\vspace{1mm}\hfill January 2014 -- March 2021\\%\vspace{-1mm}
-    \textsl{Engineering Individual Contributor (\(\sim\)5 years; final title: sr.\ tech lead engineer)}
-    \begin{itemize}
-    \item Built application using HBase and Python to internal and external researchers to dynamically query \(k\)-anonymized data for \textgreater 5 million customers using a SQL interface,  an HTTP API, or a web front end
-    \item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using React and Typescript
-    \item Designed and implemented a Python library providing a unified API for accessing customer data across MySQL, HBase, and other data stores, eventually used for 100\% of customer content
-    \item Created Genotyping Services, a Django webapp on AWS allowing external researchers to easily run genomic studies, increasing sales by over 2\% and leading to strategic data-sharing agreements
-    \item Architected and led building of containerized (Docker, AWS ECS) systems to ensure quality, reproducibility, and rapid deployment of machine learning models, used for over 90\% of production models
-    \item Built 3 generations of distributed data pipelines with Celery, Luigi, and AWS Simple Workflow to run Python, C++, and R algorithms that impute, transform, and analyze petabytes of genetic data
-    \item Developed and automated a maximum likelihood analysis combining private and public datasets that flagged \(\sim0.5\%\) of genotyping probes as bad for replacement in future platforms
-    \item Automated genotype calling for SNPs and genes using a combination of unsupervised and supervised ML techniques
-    \end{itemize}
     \textsl{Engineering Management (\(\sim\)2 years; title: engineering manager)}
     \begin{itemize}
-    \item Created and recruited for 3 machine learning and data -focused engineering teams totaling 16 engineers, including a mix of leads, senior, and junior level individual contributors
-    \item Formed and led team of engineering leads to standardize interviewing guidelines and open source release processes, subsequently adopted by all engineering teams
+    \item Created and grew 3 machine learning and data -focused engineering teams totaling 16 engineers, including a mix of leads and individual contributors
+    \item Led committee of engineering leads to standardize interviewing guidelines and open source release processes, subsequently adopted organization-wide
+    \end{itemize}
+    \textsl{Engineering Individual Contributor (\(\sim\)5 years; final title: sr.\ tech lead engineer)}
+    \begin{itemize}
+    %\item Built Django and HBase platform for internal and external researchers to dynamically query \(k\)-anonymized data for \textgreater 10 million customers
+    \item Architected containerized (Docker, AWS ECS) machine learning systems to ensure quality and reproducibility of models in a regulated medical device setting
+    \item Designed and implemented a library with a unified API for accessing data \& metadata across application-specific data stores, eventually used for all customer content
+    \item Created web portal for external researchers to recruit for genomic studies and receive data back, increasing sales by 2\% and producing strategic data-sharing agreements
+    %\item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using React and Typescript
+    \item Developed and performed a maximum likelihood analysis combining private and public datasets to replace thousands of ineffective genotyping probes
+    \item Built 3 generations of distributed data pipelines with Celery, Luigi, and AWS to run Python, C++, and R algorithms operating on petabytes of genetic data
+    %\item Automated genotype calling for SNPs and genes using a combination of unsupervised and supervised ML techniques
     \end{itemize}
     
     %\textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
@@ -70,45 +70,45 @@
     \textbf{SLAC National Accelerator Lab}, Menlo Park, CA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
     \textsl{Research Associate}
     \begin{itemize}
-    \item Applied machine learning algorithms \& statistical analysis to improve detector energy resolution by 25\%
-    \item Repurposed the detector for 3D cosmic ray muon reconstruction using computer vision algorithms, yielding a 10x reduction in cosmogenic background uncertainty
-    \item Created a PHP logbook webapp with a MySQL backend for tracking work on the EXO-200 experiment
-    \item Built, networked, and programmed PLC control systems using over 600 channels of heterogeneous sensor data at a site with unreliable internet connectivity, successfully protecting \$10M of liquid xenon
+    \item Applied machine learning \& statistics to improve detector energy resolution by 25\%
+    \item Used computer vision algorithms to repurpose the detector for 3D cosmic ray muon reconstruction, yielding a 10x reduction in cosmogenic background uncertainty
+    \item Built, networked, and programmed PLC control systems with over 600 channels of heterogeneous sensor data at a site with unreliable internet connectivity, successfully protecting \$10M of liquid xenon
+    \item Created a PHP logbook webapp with a MySQL backend for tracking lab work
     \item Developed batch data pipelines using Python, C++, and shell scripts to routinely measure detector characteristics by processing TB of calibration data.
-    \item Coordinated hardware and analysis software development with remote teams distributed around the world 
-    \item Mentored 1--2 junior graduate students (at any given time) on lab, coding, and statistical technique
+    %\item Coordinated hardware and analysis software development with remote teams distributed around the world 
+    %\item Mentored 1--2 junior graduate students (at any given time) on lab, coding, and statistical technique
     \end{itemize}
 
-    \textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
+    %\textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
     %\phantom{\textbf{Stanford University}, Stanford, CA}\hfill (3 quarters)\vspace{1mm}\\\vspace{1mm}%
-    \textsl{Teaching Assistant}\hfill (3 quarters)%
-    \begin{itemize}
-    \item Supervised 8 to 12 undergraduate students in laboratory and classroom settings
-    \item Communicated advanced physics concepts, including computational physics using MATLAB and Python
-    \end{itemize}
+    %\textsl{Teaching Assistant}\hfill (3 quarters)%
+    %\begin{itemize}
+    %\item Supervised 8 to 12 undergraduate students in laboratory and classroom settings
+    %\item Communicated advanced physics concepts, including computational physics using MATLAB and Python
+    %\end{itemize}
 
-    \textbf{Rice University}, Houston, TX \hfill May 2005 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
-    and \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{1mm}\\\vspace{1mm}%
-    \textsl{Undergraduate Research Assistant}
-    \begin{itemize}
-    \item Implemented (in C++) and evaluated random forest and boosted decision tree algorithms that contributed to the discovery of single top quark production by Fermilab's D0 experiment
-    \item Investigated and benchmarked many different machine learning classification algorithms for their power to discriminate signals of supersymmetry from backgrounds
-    \end{itemize}
+    %\textbf{Rice University}, Houston, TX \hfill May 2005 -- May 2007 \vspace{1mm}\\\vspace{1mm}%
+    %and \textbf{University of Washington}, Seattle, WA \hfill June 2006 -- August 2006 \vspace{1mm}\\\vspace{1mm}%
+    %\textsl{Undergraduate Research Assistant}
+    %\begin{itemize}
+    %\item Implemented (in C++) and evaluated random forest and boosted decision tree algorithms that contributed to the discovery of single top quark production by Fermilab's D0 experiment
+    %\item Investigated and benchmarked many different machine learning classification algorithms for their power to discriminate signals of supersymmetry from backgrounds
+    %\end{itemize}
 
     %________________________________________________________________________________________________
     % Skills
     \section{\mysidestyle Skills}\vspace{0mm}%
-    \textbf{Languages:} Python, Rust, C, C++, SQL, *NIX Shell Scripting, Elm, JavaScript, TypeScript, R
+    \textbf{Languages:} Python, Rust, C, C++, SQL, Shell Scripting, Elm, JavaScript/TypeScript, R
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Tools:} AWS, NumPy, SciPy, Scikit-Learn, Mypy, Pydantic, FastAPI, Flask, Django, React, MySQL, PostgreSQL, Git, HBase, Spark, \LaTeX
+    \textbf{Tools:} AWS, GCP, NumPy, SciPy, Scikit-Learn, Mypy, Pydantic, FastAPI, Flask, Django, React, MySQL, PostgreSQL, Git, HBase, Spark, \LaTeX
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Other:} Machine Learning, Data Analysis, Bayesian and Frequentist Statistics, Simulation, CI/CD, Sensors, Neutrino \& Particle Physics, Analog \& Digital Electronics, Radio (Amateur Extra License), Experienced Underground Miner
+    \textbf{Other:} Machine Learning, Data Analysis, Bayesian/Frequentist Statistics, Simulation, CI/CD, Sensors, Analog \& Digital Electronics, Neutrino \& Particle Physics%, Radio (Amateur Extra License), Experienced Underground Miner
 
     %________________________________________________________________________________________________
     % Projects
-    \section{\mysidestyle Open Source}\vspace{0mm}%
-    \textbf{SpookyOTP:} A lightweight Python implementation of TOTP/HOTP authentication
-    \vspace{1mm}%\\\vspace{0mm}
+    %\section{\mysidestyle Open Source}\vspace{0mm}%
+    %\textbf{SpookyOTP:} A lightweight Python implementation of TOTP/HOTP authentication
+   % \vspace{1mm}%\\\vspace{0mm}
     %\textbf{PBWT Rust:} A Rust implementation of the positional Burrows-Wheeler transform
 
     %________________________________________________________________________________________________
@@ -175,13 +175,13 @@
 
 %________________________________________________________________________________________________
 % Talks / Panels
-\section{\mysidestyle Selected Talks}
+%\section{\mysidestyle Selected Talks}
 
-    Panelist, ``Machine Learning''\\
-    XLDB Conference \hfill 1 May 2018
+%    Panelist, ``Machine Learning''\\
+%    XLDB Conference \hfill 1 May 2018
 
-    ``Migrating Bioinformatics Pipelines to the Cloud''\\
-    Biological Data Science (Biodata) Conference \hfill 27 October 2016
+%    ``Migrating Bioinformatics Pipelines to the Cloud''\\
+%    Biological Data Science (Biodata) Conference \hfill 27 October 2016
 
     %``The Science of Predicting Elections''\\
     %SASS (SLAC Association for Student Seminars) \hfill 31 October 2012\\%
