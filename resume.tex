@@ -27,16 +27,17 @@
     \textbf{Pathos AI}, Chicago, IL (Remote) \hfill\vspace{1mm}\hfill June 2022 -- present\\%\vspace{-1mm}
     \textsl{Vice President of Engineering}
     \begin{itemize}
-    \item Grew an engineering team from zero to four engineers of varying seniority
-    \item Built a data catalog and management system to search, utilize, understand, and audit access to thousands of datasets and analysis results
-    \item Prototyped LLM RAG generative AI pipeline for scientific literature review
-    \item Used GCP, Terraform, and Nextflow to automate data analysis and processing
+    \item Grew agile data-focused engineering team from zero to four engineers
+    \item Built a federated data catalog on GCP to search, utilize, understand, and audit access to thousands of biological datasets and analysis results
+    \item Prototyped LLM embedding pipeline to catalog scientific literature using PyTorch
+    \item Built data analysis and processing environment from scratch supporting Python and R using GCP, Terraform, Nextflow, and Docker
+    \item Developed Slack bots with Typescript \& Deno for engineering and operational tasks
     \end{itemize}
 
     \textbf{D2G Oncology}, Mountain View, CA \hfill\vspace{1mm}\hfill April 2021 -- May 2022\\%\vspace{-1mm}
     \textsl{Staff Software Engineer}
     \begin{itemize}
-    \item Created \textit{in silico} simulations of PCR and DNA sequencing, used for oligo design, QC, and automated processing of several multiplexed sequencing runs per month
+    \item Created \textit{in silico} simulations of PCR and DNA sequencing, used for oligo design, QC, and automated processing of multiplexed sequencing runs
     \item Built a pipeline using pydantic to automate ETL and validation of Benchling LIMS data from an HTTP API to a PostgreSQL warehouse
     \item Developed a Python library exposing GraphQL and REST APIs for accessing and traversing a large knowledge graph of lab, sequencing, public, and analysis data
     \end{itemize}
@@ -49,14 +50,15 @@
     \end{itemize}
     \textsl{Engineering Individual Contributor (\(\sim\)5 years; final title: sr.\ tech lead engineer)}
     \begin{itemize}
-    %\item Built Django and HBase platform for internal and external researchers to dynamically query \(k\)-anonymized data for \textgreater 10 million customers
-    \item Architected containerized (Docker, AWS ECS) machine learning systems to ensure quality and reproducibility of models in a regulated medical device setting
-    \item Designed and implemented a library with a unified API for accessing data \& metadata across application-specific data stores, eventually used for all customer content
+    \item Built Django and HBase platform for internal and external researchers to dynamically query \(k\)-anonymized data for \textgreater 10 million customers
+    \item Developed containerized (Docker, AWS ECS) machine learning systems to ensure quality and reproducibility of models in a regulated medical device setting
+    \item Implemented bioinformatics algorithms from literature in C++, Spark, and Rust
+    \item Designed and implemented a data catalog with a unified API for accessing data/metadata across application-specific data stores, eventually used for all customer content
     \item Created web portal for external researchers to recruit for genomic studies and receive data back, increasing sales by 2\% and producing strategic data-sharing agreements
-    %\item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using React and Typescript
+    \item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using React and Typescript
+    \item Built and scaled 3 generations of distributed data pipelines with Celery, Luigi, and AWS to run Python, C++, and R algorithms operating on petabytes of genetic data
+    \item Automated genotype calling for SNPs and genes using a combination of unsupervised and supervised ML techniques in SKLearn
     \item Developed and performed a maximum likelihood analysis combining private and public datasets to replace thousands of ineffective genotyping probes
-    \item Built 3 generations of distributed data pipelines with Celery, Luigi, and AWS to run Python, C++, and R algorithms operating on petabytes of genetic data
-    %\item Automated genotype calling for SNPs and genes using a combination of unsupervised and supervised ML techniques
     \end{itemize}
     
     %\textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
@@ -70,13 +72,13 @@
     \textbf{SLAC National Accelerator Lab}, Menlo Park, CA \hfill May 2008 -- August 2013\vspace{1mm}\\\vspace{1mm}%
     \textsl{Research Associate}
     \begin{itemize}
+    \item Developed batch data pipelines on scientific cluster using Python, C++, and shell scripts to routinely characterize detector by processing TB of calibration data
     \item Applied machine learning \& statistics to improve detector energy resolution by 25\%
-    \item Used computer vision algorithms to repurpose the detector for 3D cosmic ray muon reconstruction, yielding a 10x reduction in cosmogenic background uncertainty
-    \item Built, networked, and programmed PLC control systems with over 600 channels of heterogeneous sensor data at a site with unreliable internet connectivity, successfully protecting \$10M of liquid xenon
+    \item Implemented computer vision algorithms in C++ to repurpose detector for 3D cosmic ray reconstruction, reducing cosmogenic background uncertainty by 10x
+    \item Built, programmed, \& networked PLC control systems with 600+ channels of heterogeneous sensor data at remote underground site with unreliable connectivity%, protecting \$10M of xenon
     \item Created a PHP logbook webapp with a MySQL backend for tracking lab work
-    \item Developed batch data pipelines using Python, C++, and shell scripts to routinely measure detector characteristics by processing TB of calibration data.
-    %\item Coordinated hardware and analysis software development with remote teams distributed around the world 
-    %\item Mentored 1--2 junior graduate students (at any given time) on lab, coding, and statistical technique
+    \item Coordinated hardware, analysis, and control software development with remote teams distributed around the world 
+    \item Mentored junior researchers on lab, coding, \& statistical technique
     \end{itemize}
 
     %\textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
@@ -100,9 +102,9 @@
     \section{\mysidestyle Skills}\vspace{0mm}%
     \textbf{Languages:} Python, Rust, C, C++, SQL, Shell Scripting, Elm, JavaScript/TypeScript, R
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Tools:} AWS, GCP, NumPy, SciPy, Scikit-Learn, Mypy, Pydantic, FastAPI, Flask, Django, React, MySQL, PostgreSQL, Git, HBase, Spark, \LaTeX
+    \textbf{Tools:} AWS, GCP, NumPy, JAX, SciPy, Scikit-Learn, PyTorch, Mypy, Pydantic, FastAPI, Flask, Django, React, MySQL, PostgreSQL, Git, HBase, Spark, \LaTeX, Blender, Unity
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Other:} Machine Learning, Data Analysis, Bayesian/Frequentist Statistics, Simulation, CI/CD, Sensors, Analog \& Digital Electronics, Neutrino \& Particle Physics%, Radio (Amateur Extra License), Experienced Underground Miner
+    \textbf{Other:} Machine Learning, Data Analysis, Linear Algebra, Bayesian/Frequentist Statistics, Simulation, CI/CD, Sensors, Analog \& Digital Electronics, Scientific Computing, Neutrino \& Particle Physics, Radio (Amateur Extra License), Experienced Underground Miner
 
     %________________________________________________________________________________________________
     % Projects
@@ -114,17 +116,17 @@
     %________________________________________________________________________________________________
     % Education
     \section{\mysidestyle Education}
-    \textbf{Insight Data Science}, Mountain View, CA \hfill December 2013\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Insight Data Science}, Mountain View, CA %
     \begin{itemize}
     \item Postdoctoral Fellowship
     \end{itemize}\vspace{-1.5mm}
 
-    \textbf{Stanford University}, Stanford, CA \hfill June 2013\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Stanford University}, Stanford, CA%
     \begin{itemize}
     \item Ph.D. (Physics)
     \end{itemize}\vspace{-1.5mm}
 
-    \textbf{Rice University}, Houston, TX \hfill May 2007\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{Rice University}, Houston, TX%
     \begin{itemize}
     \item B.S. (Physics)
     \end{itemize}\vspace{-1.5mm}
