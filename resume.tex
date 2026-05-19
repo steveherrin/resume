@@ -21,56 +21,58 @@
 %________________________________________________________________________________________________
     % Summary
     \section{\mysidestyle Summary}
-    Engineering leader with over a decade of experience building and leading teams that use software, data, and machine learning to solve novel problems. Scientific (physics PhD) background with demonstrated adaptability to other fields like biotech.%________________________________________________________________________________________________
+   Staff-level engineer and leader with 15+ years of experience building scalable AI, machine learning, and data platforms in biotech and scientific computing environments. Expertise in distributed systems, MLOps, production machine learning platforms, and cloud infrastructure. Track record of leading teams and translating research systems into production infrastructure.
+%%________________________________________________________________________________________________
+%   Staff-level engineer with 15+ years of experience building machine learning infrastructure, scientific systems, and distributed data platforms. Experience translating research workflows into scalable production systems, including ML evaluation platforms, cloud-native model infrastructure, and large-scale experimental pipelines. Background in physics, machine learning, simulation, and high-performance scientific computing. %________________________________________________________________________________________________
     % Professional Experience
     \section{\mysidestyle Experience}
 
-    \textbf{Chan Zuckerberg Initiative}, Redwood City, CA \hfill\vspace{1mm}\hfill August 2024 -- present\\%\vspace{-2mm}
-    \textsl{Staff Software Engineer}
+    \textbf{Biohub (was Chan Zuckerberg Initiative)}, Redwood City, CA \hfill\vspace{1mm}\hfill August 2024 -- present\\%\vspace{-2mm}
+    \textsl{Staff Engineer, Software and AI Research}
     \begin{itemize}
-    \item Developed a biological AI model benchmarking suite (\texttt{cz-benchmarks}), collaborating with NVIDIA, and integrated it into training pipelines
-    \item Collaborated with AI researchers to productionize multiple embedding and generative models per quarter (using Run:ai and MLFlow), including transformers and diffusion models
-    \item Built the identity and permissions (AuthZ/AuthN) system for the Virtual Cell Models platform using AWS Cognito, OpenFGA, Kubernetes, and Python (FastAPI) to manage fine-grained access to models, datasets, and admin functionality
-    \item Augmented CI/CD with additional testing, type checking, linting, and other quality rules to accelerate automated development with coding agents
+    \item Architected and built framework for launching and tracking biological AI model evaluation workflows, with WandB dashboard integration, supporting multiple modeling teams and dozens of researchers
+    \item Developed a biological AI benchmarking suite in collaboration with NVIDIA, and integrated it into model training pipelines
+    \item Productionized and deployed multiple embedding and generative models per quarter using Kubernetes and PyTorch
+    \item Architected and implemented a fine-grained identity and permissions (AuthZ/AuthN) system using AWS Cognito, OpenFGA, Kubernetes, and FastAPI to secure access to an AI platform hosting models, datasets, and admin tooling
+    \item Expanded CI/CD automation with additional testing, type checking, linting, and validation pipelines to accelerate AI-assisted development workflows
     \end{itemize}
     
     \textbf{Pathos AI}, Chicago, IL \hfill\vspace{1mm}\hfill June 2022 -- July 2024\\%\vspace{-1mm}
     \textsl{Vice President of Engineering}
     \begin{itemize}
-    \item Grew agile data-focused engineering team from zero to four engineers
-    \item Developed a federated data catalog and management system using GCP, PostgreSQL, and Python to search for, manage, understand, and audit access to thousands of datasets and analysis results
-    \item Prototyped a containerized large language model (LLM) retrieval-augmented generation (RAG) pipeline for scientific literature using pgvector and Google Cloud Platform
-    \item Built analysis and processing environment from scratch using GCP and Terraform, and automated distributed scientific computing jobs using using Nextflow
-    \item Developed Slack bots in Typescript/Deno to automate engineering and administrative tasks
+    \item Built and led a data-focused engineering organization, growing the team from scratch to 4 engineers
+    \item Prototyped a containerized, model-agnostic LLM-based Retrieval-Augmented Generation (RAG) platform for scientific literature search and summarization using pgvector
+    \item Designed and deployed automated cloud-native scientific computing infrastructure using GCP, Terraform, and Nextflow for distributed multi-modal analysis workloads
+    \item Developed a federated data catalog and management system using GCP, PostgreSQL, and Python to manage and audit access to thousands of datasets and analysis artifacts
+
+    \item Developed internal automation and operational tooling using TypeScript and Deno-based Slack bots
     \end{itemize}
 
     \textbf{D2G Oncology}, Mountain View, CA \hfill\vspace{1mm}\hfill April 2021 -- May 2022\\%\vspace{-1mm}
     \textsl{Staff Software Engineer}
     \begin{itemize}
-    \item Created \textit{in silico} simulations of PCR and DNA sequencing, used for oligo design, QC, and automated processing of multiplexed sequencing runs
-    \item Built a pipeline using pydantic to automate ETL and validation of Benchling LIMS data from an HTTP API to a PostgreSQL warehouse
-    \item Developed a Python library exposing GraphQL and REST APIs for accessing and traversing a large knowledge graph of lab, sequencing, public, and analysis data
+    \item Created \textit{in silico} simulation system for PCR amplification and DNA sequencing, supporting oligo design, quality control, and automated sequencing analysis
+    \item Built ETL and data validation pipelines using Python, Pydantic, and PostgreSQL to standardize sequencing data ingestion and integrate with Benchling LIMS
+    \item Developed Python SDK and API for querying and traversing large-scale biomedical knowledge graph with GraphQL and REST interfaces
     \end{itemize}
 
     \textbf{23andMe}, Sunnyvale, CA \hfill\vspace{1mm}\hfill January 2014 -- March 2021\\%\vspace{-1mm}
-    \textsl{Engineering Individual Contributor (\(\sim\)5 years; final title: sr.\ tech lead engineer)}
+    \textsl{Senior Technical Lead Engineer (\(\sim\)5 years)}
     \begin{itemize}
-    \item Architected and led building of a machine learning platform using Docker and AWS ECS to ensure quality, reproducibility, and rapid deployment of machine learning models, used for over 90\% of production models
-    \item Built a service to allow internal and external researchers to dynamically query \(k\)-anonymized data via Python and HBase for \textgreater 5 million customers using a SQL interface,  an HTTP API, or a web front end
+    \item Architected and led development of a cloud-native machine learning platform using Docker and AWS ECS that supported 90\% of production ML workloads
+    \item Developed secure large-scale data access platform enabling internal and external researchers to query \(k\)-anonymized genomic datasets for more than 8 million customers using SQL, HTTP API, and web portal interfaces
+    \item Built researcher-facing genotyping services platform, enabling data-sharing partnerships and increasing increasing revenue over 2\%
     %\item Implemented bioinformatics algorithms from literature in C++, Spark, and Rust
-    \item Migrated a 20 kLOC Django web application to the AWS cloud, upgrading the back-end from Python 2 to 3 and standardizing the front-end using React and Typescript
-    \item Designed and implemented a Python library providing a unified API for accessing customer data across MySQL, HBase, and other data stores, eventually used for 100\% of customer content
-    \item Created Genotyping Services, a Django webapp on AWS allowing external researchers to easily run genomic studies, increasing sales by over 2\% and leading to strategic data-sharing agreements
     \newpage
-    \item Built 3 generations of distributed data pipelines with Celery, Luigi, and AWS Simple Workflow to run Python, C++, and R algorithms that impute, transform, and analyze petabytes of genetic data
-    
-    \item Developed and automated a maximum likelihood analysis combining private and public datasets that flagged \(\sim0.5\%\) of genotyping probes as bad for replacement in future platforms
-    \item Automated genotype calling for SNPs and genes using a combination of unsupervised and supervised ML techniques in SKLearn
+    \item Automated genomic quality control and analysis workflows using statistical modeling and machine learning techniques in scikit-learn
+    \item Designed a unified Python data access framework integrating MySQL, HBase, and distributed data stores, ultimately adopted for all customer data services
+    \item Built 3 generations of distributed data pipelines using Celery, Luigi, and AWS SWF, processing petabyte-scale genomic datasets with Python, C++, and R
+    \item Led migration of a 20k+ LOC Django application from on-prem to AWS, modernizing the stack with Python 3, React, and TypeScript
     \end{itemize}
-    \textsl{Engineering Management (\(\sim\)2 years; title: engineering manager)}
+    \textsl{Engineering Manager (\(\sim\)2 years)}
     \begin{itemize}
-    \item Created, recruited for, and led 3 machine learning and data -focused engineering teams totaling 16 engineers, including a mix of leads, senior, and junior level individual contributors
-    \item Formed and led team of engineering leads to standardize interviewing guidelines and open source release processes, subsequently adopted by all engineering teams
+    \item Built and managed three machine learning and data engineering teams totaling 16 engineers across senior, mid-level, and junior roles
+    \item Led engineering-wide initiatives to standardize interviewing practices and open-source release processes across the organization
     \end{itemize}
     
     %\textbf{Insight Data Science}, Mountain View, CA \hfill August 2013 -- December 2013\vspace{1mm}\\\vspace{1mm}%
@@ -85,12 +87,12 @@
     \textsl{Research Associate}
     \begin{itemize}
     \item Applied machine learning algorithms \& statistical analysis to improve detector energy resolution by 25\%
-    \item Repurposed the detector for 3D cosmic ray muon reconstruction using computer vision algorithms, yielding a 10x reduction in cosmogenic background uncertainty
-    \item Created a PHP logbook webapp with a MySQL backend for tracking work on the EXO-200 experiment
-    \item Built, networked, and programmed PLC control systems using over 600 channels of heterogeneous sensor data at a site with unreliable internet connectivity, successfully protecting \$10M of cryogenic xenon
-    \item Developed batch data pipelines using Python, C++, and shell scripts to routinely measure detector characteristics by processing TB of calibration data.
-    \item Coordinated hardware and analysis software development with remote teams distributed around the world 
-    \item Mentored 1--2 junior graduate students (at any given time) on lab, coding, and statistical technique
+    \item Developed computer vision and reconstruction algorithms for 3D cosmic ray tracking, reducing background uncertainty by 90\%
+    \item Built web-based operational tooling and monitoring systems for a multi-institution scientific collaboration using PHP and MySQL
+    \item Designed and programmed redundant control systems integrating 600+ heterogeneous sensors to protect \$10M of cryogenic xenon
+    \item Developed large-scale scientific data processing pipelines using Python, C++, and shell scripting to analyze terabytes of experimental data
+    \item Coordinated distributed software and hardware development across international research teams 
+    \item Mentored graduate researchers on lab, coding, and statistical technique
     \end{itemize}
 
     %\textbf{Stanford University}, Stanford, CA \hfill April 2008 -- December 2011 \vspace{0mm}\\
@@ -112,11 +114,17 @@
     %________________________________________________________________________________________________
     % Skills
     \section{\mysidestyle Skills}\vspace{0mm}%
-    \textbf{Languages:} Python, Rust, C, C++, SQL, Shell Scripting, Elm, JavaScript/TypeScript, R
+    \textbf{Languages:} Python, Rust, C, C++, SQL, TypeScript, JavaScript, Shell Scripting, R, Elm, \LaTeX
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Tools:} AWS, GCP, Kubernetes, NumPy, SciPy, Scikit-Learn, PyTorch, Spark, Mypy, Pydantic, FastAPI, PostgreSQL, Git, \LaTeX
+    \textbf{Machine Learning \& Data}: PyTorch, scikit-learn, NumPy, SciPy, Spark, MLOps, LLMs, RAG, Data Engineering, Distributed Systems
     \vspace{1mm}\\\vspace{0mm}%
-    \textbf{Other:} Machine Learning, Data Analysis, Linear Algebra, Bayesian/Frequentist Statistics, Simulation, CI/CD, Sensors, Analog \& Digital Electronics, Scientific Computing, Neutrino \& Particle Physics, Radio (Amateur Extra License), Experienced Underground Miner
+    \textbf{Cloud \& Infrastructure}: AWS, GCP, Kubernetes, Docker, Terraform, CI/CD, MLflow, Nextflow, Celery, Linux, Git
+    \vspace{1mm}\\\vspace{0mm}%
+    \textbf{Backend}: FastAPI, Django, GraphQL, REST, PostgreSQL, HBase, Pydantic
+    \vspace{1mm}\\\vspace{0mm}%
+    \textbf{Scientific \& Domain Expertise}: Bioinformatics, Computational Biology, Physics, Statistical Modeling, Scientific Computing, Radio, Analog \& Digital Electronics
+    \vspace{1mm}\\\vspace{0mm}%
+    %\textbf{Other:} Machine Learning, Data Analysis, Linear Algebra, Bayesian/Frequentist Statistics, Simulation, CI/CD, Sensors, Analog \& Digital Electronics, Scientific Computing, Neutrino \& Particle Physics, Radio (Amateur Extra License), Experienced Underground Miner
 
     %________________________________________________________________________________________________
     % Projects
@@ -191,6 +199,9 @@
 %________________________________________________________________________________________________
 % Talks / Panels
 %\section{\mysidestyle Selected Talks}
+
+%    ``Using the Virtual Cell Platform to Accelerate Machine Learning in Biology''\\
+%    NeurIPS \hfill 3 December 2025
 
 %    Panelist, ``Machine Learning''\\
 %    XLDB Conference \hfill 1 May 2018
